@@ -1,0 +1,9 @@
+<div class="container m-4">
+    <button class="btn btn-info" (click)='onChooseFile()'>CHOOSE FILE</button>
+</div>
+<div class="d-none">
+    <input   type="file" multiple  (input)="onFileChange($event)" #inputFile>
+</div>
+<div *ngIf='' class="">
+    <app-all-file-aploads></app-all-file-aploads>
+</div>
