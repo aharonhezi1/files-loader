@@ -5,14 +5,15 @@
 export const environment = {
   production: false,
   firebase : {
-    apiKey: "AIzaSyDS_r3PnIhqzuv8Bwnflkg7JcltAVe2CaI",
-    authDomain: "angular-exam-d1a39.firebaseapp.com",
+    apiKey: "xxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    authDomain: 'xxxxxxxxxxxxxxxxxxxxxxxxxx',
     projectId: "angular-exam-d1a39",
     storageBucket: "angular-exam-d1a39.appspot.com",
-    messagingSenderId: "640062061347",
-    appId: "1:640062061347:web:1bb8028a5e7afc79aeaa96"
+    messagingSenderId: "xxxxxxxxxxxxxxxx7",
+    appId: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
   }
 };
+
 
 /*
  * For easier debugging in development mode, you can import the following file

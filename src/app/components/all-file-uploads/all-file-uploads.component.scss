@@ -1,0 +1,28 @@
+.files-container {
+    width: 40%;
+    max-width: 33vw;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    border: 1px solid gray;
+    border-radius: 6px 6px 0 0;
+
+    max-height: 380px;
+    .head-bar {
+        background: black;
+        border-radius: 5px 5px 0 0;
+
+        div {
+            color: white;
+        }
+    }
+    .file-scroll {
+        height: 350px;
+
+        overflow: auto;
+        overflow-x: auto;
+    }
+}
+.rotate {
+    transform: rotate(180deg);
+}
